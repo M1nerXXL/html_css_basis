@@ -1,0 +1,14 @@
+img {
+    height: 300px;
+    width: 300px;
+    padding: 125px;
+    border: 10px;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.content-box {
+    box-sizing: content-box;
+}
