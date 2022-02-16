@@ -1,0 +1,46 @@
+.tiger {
+    width: 300px;
+    border: 10px solid #000000;
+    padding: 100px;
+}
+
+.author {
+    clear: both;
+    width: 150;
+}
+
+.content {
+    font-family: courier;
+    width: 1000px;
+    margin: 20px auto 20px auto;
+    color: #009900;
+}
+
+.main_page {
+    box-sizing: border-box;
+    float: left;
+    width: 75%;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.sidebar {
+    float: right;
+    width: 25%;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.larger {
+    font-size: 18px;
+}
+
+.strong {
+    margin: 15px 0 15px 0;
+}
