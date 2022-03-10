@@ -1,0 +1,5 @@
+1. Bepalen wat het doel is van je project en voor wie het bedoeld is.
+2. Hoe snel je website is.
+3. Responsive web design is design dat zich aanpast aan de gebruiker, zoals schermgrootte, en nog steeds goed werkt.
+4. Fluid grid, flexible images, media queries
+5. 
