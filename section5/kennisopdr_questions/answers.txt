@@ -1,5 +1,28 @@
-1. Bepalen wat het doel is van je project en voor wie het bedoeld is.
-2. Hoe snel je website is.
-3. Responsive web design is design dat zich aanpast aan de gebruiker, zoals schermgrootte, en nog steeds goed werkt.
-4. Fluid grid, flexible images, media queries
-5. 
+1.	Bepalen wat het doel is van je project en voor wie het bedoeld is.
+2.	Hoe snel je website is.
+3.	Responsive web design is design dat zich aanpast aan de gebruiker, zoals schermgrootte, en nog steeds goed werkt.
+4.	Fluid grid, flexible images, media queries
+5.	Voor de belangrijke content in een webpage waar mensen geïnteresseerd in zijn.
+6.	Een Header element is bedoeld voor de header van een pagina. Het geeft context die handig is voor bijvoorbeeld search engines.
+7.	Naam van kleur (color: black;), RGB (color: rgb(0,0,0)), color code (color: #000000)
+8.	Block elements maken een nieuwe lijn en gebruiken die hele lijn.
+	Inline-block elements zijn hetzelfde, maar er kunnen dingen achter gezet worden op dezelfde lijn.
+	Inline elements maken niet een nieuwe lijn en kunnen tussen andere elements op dezelfde lijn gezet worden.
+9.	Een comment is wat text in de code die informatie geeft aan degene die de code leest. de computer gebruikt deze text niet als code en negeert het.
+10.	/* text */
+11.	Het bepaalt waar een element zit in zijn container
+12.	Een class die alleen actief wordt onder bepaalde omstandigheden, bijvoorbeeld als je over een element wijst.
+13.	het is een vector image, het gebruikt bepaalde wiskundige formules in plaats vaan pixels. Hierdoor is resolutie nooit een probleem en zijn ze sneller geladen.
+14.	Padding is ruimte tussen een element en de rand van zijn container.
+15.	Margin ir ruimte buiten een container, wat ruimte tussen containers creëert.
+16.	Padding is lege ruimte binnen de container, margin is lege ruimte buiten de container.
+17.	1rem
+18.	Als een element te groot is voor een container kan je met de overlow property bepalen hoe de pagina zich moet gedragen.
+	Als een image te groot is voor de pagina, kan je bepalen om ervoor te zorgen dat je horizontaal kan scrollen.
+19.	em, rem, %
+20.	px, cm, mm
+21.	Dat hangt af van wat je aan het doen bent, maar vaak is relatief beter omdat het flexibeler is voor meerdere schermgroottes.
+22.	<form>, het is een container waar je elements kan neerzetten waar gebruikers info kunnen invullen en opsturen.
+23.	Je begint met HTML omdat je dan de inhoud van de pagina kan maken en met CSS het kan neerzetten en vormen naar wat je wilt hebben. Het kan andersom, maar dat is niet altijd handig.
+24.	De footer heeft vaak links naar belangrijke informatie zoals contactgegevens, copyright, etc. In de footer is het makkelijk te vinden voor wie het nodig heeft zonder dat het in de weg staat.
+25.	<footer>

@@ -1,0 +1,18 @@
+1.	* {
+		font-family: "Mukta"
+	}
+
+2.	@media only screen and (max-width: 480px) {
+	.col {
+        	margin: 0;
+	}
+
+	Een mediaquery is een CSS class die alleen in bepaalde situaties activeert.
+
+6.	* {
+		text-transform: uppercase;
+	}
+
+7.	* {
+		text-transform: lowercase;
+	}

@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+}
+
+div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

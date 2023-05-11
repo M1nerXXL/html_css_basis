@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    align-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 5%
+}
+
+.center-button{
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    background-color: #93fbff;
+    border-color: #3e696a;
+    border-radius: 10px;
+}
