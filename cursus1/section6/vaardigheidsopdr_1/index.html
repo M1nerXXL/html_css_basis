@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/responsive-styles.css">
+    </head>
+    <body>
+        <!-- Afbeelding heuvels -->
+        <div>
+            <figure class="hills-figure">
+                <img class="hills-image" src="resources/img/hills.jpg">
+            </figure>
+        </div>
+        <!-- Invulformulier -->
+        <div class="form">
+            <!-- Titel -->
+            <div>
+                <h1>Contactformulier</h1>
+            </div>
+            <!-- Naam -->
+            <div class="row">
+                <div class="col span-1-of-3 input-text">
+                    <p class="input-text">Naam</p>
+                </div>
+                <div class="col span-2-of-3">
+                    <input class="input-box" id="naam" name="naam" type="text">
+                </div>
+            </div>
+            <!-- Email -->
+            <div class="row">
+                <div class="col span-1-of-3 input-text">
+                    <p class="input-text">Email</p>
+                </div>
+                <div class="col span-2-of-3">
+                    <input class="input-box" id="email" name="email" autocomplete="email" type="email">
+                </div>
+            </div>
+            <!-- Wachtwoord -->
+            <div class="row">
+                <div class="col span-1-of-3 input-text">
+                    <p class="input-text">Wachtwoord</p>
+                </div>
+                <div class="col span-2-of-3">
+                    <input class="input-box" id="wachtwoord" name="wachtwoord" type="password">
+                </div>
+            </div>
+            <!-- Geslacht -->
+            <div class="row">
+                <div class="col span-1-of-3 input-text">
+                    <p class="input-text">Geslacht</p>
+                </div>
+                <div class="col span-2-of-3">
+                    <select id="geslacht" name="geslacht">
+                        <option value="man">Man</option>
+                        <option value="vrouw">Vrouw</option>
+                        <option value="overig">Overig</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Media -->
+            <div class="row">
+                <div class="col span-1-of-3 input-text">
+                    <p class="input-text">Media</p>
+                </div>
+                <div class="col span-2-of-3 media">
+                    <div class="radio-row">
+                        <input id="nieuwsbrief" class="input-radio" type="radio" name="media" value="nieuwsbrief" >
+                        <label for="nieuwsbrief">Nieuwsbrief</label>
+                    </div>
+                    <div class="radio-row">
+                        <input id="mailing" class="input-radio" type="radio" name="media" value="mailing" >
+                        <label for="mailing">Mailing</label>
+                    </div>
+                    <div class="radio-row">
+                        <input id="post" class="input-radio" type="radio" name="media" value="post" >
+                        <label for="post">Post</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Stuur me op! -->
+            <div class="row">
+                <div class="col span-1-of-3 button-row">
+                    <button class="submit-button">Stuur me op!</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

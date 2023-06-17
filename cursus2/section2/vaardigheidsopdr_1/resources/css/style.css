@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../../resources/img/image.jpg);
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+}

@@ -1,7 +1,0 @@
-1. <!DOCTYPE html>
-2. De head geeft informatie over de pagina, zoals de titel. De body geeft de inhoud van de pagina.
-3. Een tag om aan te geven dat het bestand in HTML is geschreven.
-4. Extra informatie voor een tag.
-5. href=
-6. <a>
-7. Een interne link stuurt je naar een andere pagina op dezelfde website. Een externe link stuurt je naar een andere website.

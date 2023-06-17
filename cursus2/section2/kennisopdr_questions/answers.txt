@@ -1,0 +1,10 @@
+1.	./ wijst naar de huidige folder, en ../ wijst naar de parent folder.
+2.	Het referentiepunt is de eerste parent die een position op relative heeft staan.
+3.	@keyframes geven keyframes voor een simpele animatie.
+4.	Opacity en transform. Opacity werkt met doorzichtigheid en transform met positie, rotatie, grootte, etc. Deze worden het meest gebruikt bij animaties en browsers zijn hiervoor optimized.
+5.	Met een pseudo-selector kan je een class maken voor een element onder bepaalde condities, bijvoorbeeld voor als de cursor er overheen zweeft.
+6.	:visited, :hover, :active
+7.	Rood.
+8.	Er is geen kleur aangegeven, dus de kleur zal de default zijn. De link is blauw.
+9.	text-align geeft de alignment van inline elements. Hiermee kunnen elements bijvoorbeeld gecentreerd worden.
+10.	wanneer een element actief is, bijvoorbeeld een button waarop geklikt wordt.

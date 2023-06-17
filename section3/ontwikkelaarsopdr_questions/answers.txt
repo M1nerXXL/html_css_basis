@@ -1,4 +1,0 @@
-1. Voorbeeld: 0,0,100
-2. Hetzelfde als RGB, maar met transparantie als optie erbij.
-3. Voeg "display: inline;" toe aan een block element.
-4. Flex, het is makkelijker te gebruiken en werkt beter voor mobiel.

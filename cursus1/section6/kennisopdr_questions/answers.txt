@@ -1,0 +1,7 @@
+1.	Een manier om verschillende CSS styles te gebruiken afhankelijk van bepaalde voorwaarden, vaak de schermgrootte.
+2.	@media only screen and (max-width:480px) {}
+3.	De achtergrond zal rood zijn voor browsers met de webkit rendering engine.
+4.	De font size zal 2rem zijn voor browsers met de moz rendering engine.
+5.	De site moet goet werken. Je moet kunnen doen wat je moet doen.
+	De site moet er goed uitzien, anders kan het moeilijk zijn om te gebruiken.
+	De site werkt misschien niet goed op andere browsers, en dat is belangrijk om te fixen zodat iedereen de website goed kan gebruiken.

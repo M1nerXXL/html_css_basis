@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px) {
+    .span-1-of-3, .span-2-of-3 {
+        width: 100%;
+    }
+    
+    .input-text {
+        text-align: left;
+        font-size: 15px;
+    }
+    
+    .input-box, select {
+        width: 100%;
+    }
+    
+    .media {
+        margin-top: 0;
+    }
+    
+    .submit-button {
+        width: 100%;
+    }
+}

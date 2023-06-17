@@ -1,0 +1,8 @@
+1. Hoe een web pagina eruit ziet, aanvoelt en werkt.
+2. Web design is het designen van een website, web development is het bouwen ervan. De overeenkomst is dat je bij beide gevallen bepaald hoe een website er uiteindelijk uitziet.
+3. Flat design is simpele design met weinig of geen schaduw, het ziet er modern uit en is overzichtelijk. Zie flat_design.png for voorbeeld.
+4. Typografie is hoe tekst eruit ziet, bijvoorbeeld lettertype, tekstgrootte en dikte.
+5. Je bedenkt eerst wat je wilt bereiken met je tekst. Langere teksten zoals artikels gebruiken vaak serif, teksten op een modernere website zoals beschrijvingen gebruiken vaak sans-serif.
+6. Afbeeldingen zijn gemaakt van pixels, en als er genoeg wordt ingezoomed gaat de kwaliteit van de afbeelding snel omlag. Dit probleem heb je bij vector-afbeeldingen niet.
+7. Whitespace is lege ruimte tussen elementen.
+8. De reisplanner is het belangrijkst, omdat meeste mensen de website bezoeken om de reisplanner te gebruiken.

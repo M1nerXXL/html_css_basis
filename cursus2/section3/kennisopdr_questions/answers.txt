@@ -1,0 +1,5 @@
+1.	Belangrijkst eerst: B C A
+2.	Belangrijkst eerst: C A B D
+3.	Rood
+4.	500px
+5.	50px
