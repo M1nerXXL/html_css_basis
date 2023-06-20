@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    </head>
+    <body>
+        <h1 class="title">Grid</h1>
+        <div class="table">
+            <div class="table__half">
+                <div class="table__line table__title">
+                    <p>Container Properties</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Creates a grid</p>
+                    <p>display: grid || inline-grid;</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Creates grid columns</p>
+                    <p>grid-template-columns: length || percentage || fr || line-name</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Creates grid rows</p>
+                    <p>grid-template-rows: length || percentage || fr || line-name</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Creates a grid with specified areas</p>
+                    <p>grid-template-areas: grid-area-name || none</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Creates rows, columns and areas in a single declaration</p>
+                    <p>grid-template: none (initial values) || grid-template-rows / grid-template-columns</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Creates spaces between grid-items on the row axis</p>
+                    <p>row-gap: length</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Creates spaces between grid-items on the column axis</p>
+                    <p>column-gap: length</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Creates spaces between grid-items on the row and column axis</p>
+                    <p>gap: row-gap column-gap</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Align grid items along the inline / row axis</p>
+                    <p>justify-items: start || end || center || stretch</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Align grid items along the block / column axis</p>
+                    <p>align-items: start || end || center || stretch</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Align grid items along the inline and block axis (shorthand)</p>
+                    <p>place-items: align-items / justify-items</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Align the whole grid along the inline / row axis</p>
+                    <p>justify-content: start || end || center || stretch || space-around || space-between || space-evenly</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Align the whole grid along the block / column axis</p>
+                    <p>align-content: start || end || center || stretch || space-around || space-between || space-evenly</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Align the whole grid along the inline and block axes (shorthand)</p>
+                    <p>place-content: align-content / justify-content</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Specifies the size of any auto-generated grid row</p>
+                    <p>grid-auto-rows: size (length || percentage || fr)</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Specifies the size of any auto-generates grid column</p>
+                    <p>grid-auto-columns: size (length ||| percentage || fr)</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Sets the algorithm that places the grid-items</p>
+                    <p>grid-auto-flow: row || column || dense</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Shorthand for almost every property</p>
+                    <p>grid: grid-template-rows grid-template-columns grid-template-areas grid-auto-rows grid-auto-columns grid-auto-flow</p>
+                </div>
+            </div>
+            <div class="table__half">
+                <div class="table__line table__title">
+                    <p>Item Properties</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Determines the row start of an item within the grid</p>
+                    <p>grid-row-start: line || span (number || name) || auto</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Determines the column start of an item within the grid</p>
+                    <p>grid-column-start: line || span (number || name) || auto</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Determines the row end of an item within the grid</p>
+                    <p>grid-row-end: line || span (number || name) || auto</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Determines the column end of an item within the grid</p>
+                    <p>grid-column-end: line || span (number || name) || auto</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Shorthand for row start and end</p>
+                    <p>grid-row: grid-row-start grid-row-end</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Shorthand for column start and end</p>
+                    <p>grid-column: grid-column-start grid-column-end</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Give a grid area name to a grid item</p>
+                    <p>grid-area: name || row-start / column-start / row-end / column-end</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Aligns a grid-item inside a cell along the row / inline axis</p>
+                    <p>justify-self: start || end || center || stretch</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Aligns a grid-item inside a cell along the column / block axis</p>
+                    <p>align-self: start || end || center || stretch</p>
+                </div>
+                <div class="table__line">
+                    <p class="table__entry-title">//Aligns a grid-item inside a cell along the row / inline and column / block axes</p>
+                    <p>place-self: align-self justify-self</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

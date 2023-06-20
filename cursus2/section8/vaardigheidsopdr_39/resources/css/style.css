@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(255, 100, 126);
+}
+
+.grid-container {
+    margin: 5vh 5vw;
+    width: 90vw;
+    height: 90vh;
+    border: 2px solid black;
+
+    display: grid;
+    gap: 30px;
+    grid-template-rows:repeat(2, 150px);
+    grid-template-columns: repeat(4, 75px);
+    justify-content: center;
+    align-content: center;
+}
+
+.grid__child {
+    font-size: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num0 {
+    background-color: lightpink;
+}
+
+.num1 {
+    background-color: red;
+}
+
+.num2 {
+    background-color: blue;
+}
+
+.num3 {
+    background-color: purple;
+}
+
+.num4 {
+    background-color: green;
+}
+
+.num5 {
+    background-color: lightblue;
+}
+
+.num6 {
+    background-color: yellow;
+}
+
+.num7 {
+    background-color: lightpink;
+}

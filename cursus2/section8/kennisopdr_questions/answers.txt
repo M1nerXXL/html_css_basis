@@ -1,0 +1,21 @@
+1.	Floats
+2.	Een grid is 2D, flex is 1D.
+3.	Geef een container de property "display: grid;"
+4.	Een grid item is een enkel voorwerp in een grid container. een container heeft meerdere items.
+5.	Een grid-line is een horizontale of verticale lijnin een grid waar grid items op liggen.
+6.	Ja, een grid area kan zo veel cellen zijn als nodig. Één enkele cel is dus ook mogelijk.
+7.	fr is een fraction, het deelt de grid in delen met dezelfde afmetingen. Rows van 1fr 1fr en 2fr zijn dan 25%, 25% en 50% van de hoogte van het grid.
+8.	1000 - (300 + 300) = 1000 - 600 = 400px
+9.	1200 - (300 + 300) = 1200 - 600 = 600px
+10.	2fr + 1fr + 2fr = 5fr   1000px / 5fr = 200px   1fr = 500px
+11.	1000 - 300 = 700   700 / 3fr = 233,333...   1fr = 233px
+12.	1fr bij een totaal van 2fr is 50%, maar waarvan het 50% is is anders. Bij het percentage is het 50% van de container's afmetingen, maar bij fr is het 50% van de ruimte na padding, gaps, rows/columns zonder fr waarde, etc.
+13.	De -1 staat voor grid-line -1. Omdat de item door zal spannen en nooit -1 zal bereiken zal het oneindig ver doorgaan.
+14.	Span 2 betekent dat de item 2 cellen zal innemen.
+15.	A
+16.	A C D
+17.	Een explicit grid is het deel van een grid dat je zelf met templates maakt. een implicit grid is wat automatisch wordt toegevoegd als er geen ruimte meer is binnen het explicit grid.
+18.	Het geeft afmetingen voor het implicit grid voor wanneer dat aangemaakt moet worden.
+19.	Een unit waarbij de afmetingen zich aanpassen aan wat de meeste ruimte is die de content in kan nemen.
+20.	Een unit waarbij de afmetingen zich aanpassen aan wat de minste ruimte is die de content in kan nemen.
+21.	Geeft een minimale en maximale waarde voor iets. Zal proberen voor de hoogste toegelaten waarde te gaan.

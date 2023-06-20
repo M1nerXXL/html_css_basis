@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.navbar {
+    width: 100vw;
+    height: auto;
+    font-size: 2.4rem;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.nav {
+    height: 50px;
+    color: black;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--home {
+    background-color: red;
+}
+
+.nav--diensten {
+    background-color: blue;
+}
+
+.nav--producten {
+    background-color: purple;
+}
+
+.nav--ons-team {
+    background-color: yellow;
+}
+
+.nav--onze-werkwijze {
+    background-color: green;
+}
+
+.nav--contact {
+    background-color: lightpink;
+}
+
+@media screen and (max-width: 1100px) {
+    .navbar {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .navbar {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+    }
+}
