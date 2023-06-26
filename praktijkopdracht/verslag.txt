@@ -1,0 +1,14 @@
+do 22 juni
+Basis van de website en "Mijn werk" pagina klaar.
++ Veel gedaan, meeste al klaar.
+- Titel afbeelding van "Mijn werk" pagina duurde lang om te maken.
+
+vr 23 juni
+"Over mij" en "Contact" pagina en footer gemaakt.
++ Ging vrij makkelijk en had het snel klaar.
+- Contact pagina heeft niet veel content.
+
+ma 26 juni
+Animaties toegevoegd.
++ Nergens moeite mee gehad.
+- Moeilijk te beslissen waar ik mijn animaties wil hebben.
